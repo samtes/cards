@@ -20,5 +20,3 @@ switch (bleh) {
     console.log("WHOA");
     break;
 }
-
-console.log(<AppComponent />);
