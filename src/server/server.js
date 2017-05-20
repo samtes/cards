@@ -13,7 +13,7 @@ class AppComponent {
 
 switch (bleh) {
   case 1:
-    console.log("HEY");
+    console.log("HEY THERE");
     break;
 
   case 2:
