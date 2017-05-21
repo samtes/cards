@@ -17,6 +17,6 @@ switch (bleh) {
     break;
 
   case 2:
-    console.log("WHOA");
+    console.log("WHOA ..");
     break;
 }
