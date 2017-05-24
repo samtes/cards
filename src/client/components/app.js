@@ -4,7 +4,11 @@ import React, { Component } from "react";
 
 class AppContainer extends Component {
   render () {
-    return <h1>Hello world</h1>;
+    return <h1>Hello world!</h1>;
+  }
+
+  componentDidMount() {
+    console.log("HEY THERE");
   }
 }
 
