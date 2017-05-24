@@ -13,7 +13,6 @@ const server = new http.Server(app);
 app.set("view engine", "pug");
 app.use(express.static("public"));
 
-
 const useExternalStyle = !isDevelopment;
 const scriptRoot = isDevelopment
   ? "http://localhost:8080/build"
