@@ -175,10 +175,5 @@ function watchClient () {
 // --------------------------------
 // Run tasks
 
-gulp.task(
-  "dev",
-  gulp.parallel(
-    "server:dev",
-    "client:dev"
-  )
-);
+gulp.task("dev", gulp.parallel("server:dev", "client:dev"));
+gulp.task("build", gulp.parallel("server:build", "client:build"));
