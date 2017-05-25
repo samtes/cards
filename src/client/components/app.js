@@ -4,11 +4,19 @@ import React, { Component } from "react";
 
 class AppContainer extends Component {
   render () {
+    const { main, sidebar } = this.props;
+
     return (
-      <section>
-        <h1>Hello world!</h1>
-        <button onClick={this._click.bind(this)}>I am a button please click me</button>
-      </section>
+      <div className={`c-application`}>
+        <div className="inner">
+          <div className="sidebar">
+            { sidebar }
+          </div>
+          <div className="main">
+            { main }
+          </div>
+        </div>
+      </div>
     );
   }
 
